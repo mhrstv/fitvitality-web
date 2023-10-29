@@ -1,1 +1,1 @@
-# fitvitality-web
+# fitvitality

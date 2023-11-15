@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: url('https://github.com/mhrstv/fitvitality-web/blob/main/media/background.jpg') no-repeat;
+    background: url('media/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }

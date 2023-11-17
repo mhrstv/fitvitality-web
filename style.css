@@ -253,7 +253,6 @@ body {
 @media (max-width: 1520px){
     .p_license{
         font-size: 1.35rem;
-        transform: translateY(5%);
     }
 }
 

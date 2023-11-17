@@ -237,7 +237,7 @@ body {
     color: rgb(250, 252, 252);
     font-weight: 700;
     user-select: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .p_license a{
     color: #ffffff;
@@ -247,6 +247,13 @@ body {
 @media (prefers-reduced-motion: no-preference) {
     :root {
       scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 1360px){
+    .p_license{
+        font-size: 1.4rem;
+        transform: translateY(10%);
     }
 }
 

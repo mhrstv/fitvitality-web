@@ -63,6 +63,7 @@
 body {
     margin: 0;
     min-height: 100vh;
+    max-height: 100vh;
     background: url('./media/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -262,10 +263,13 @@ body {
     }
     .p_license{
         font-size: 1.3rem;
-        transform: translateY(15%);
+        transform: translateY(5%);
     }
 }
 
+@media (max-width: 850px){
+
+}
 
 @media (max-width: 768px){
     .icons{
@@ -328,7 +332,7 @@ body {
 
     .p_license{
         font-size: 1.1rem;
-        transform: translateY(25%);
+        transform: translateY(15%);
     }
 }
 

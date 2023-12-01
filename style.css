@@ -157,7 +157,7 @@ body {
     width: 100%;
     position: fixed;
     bottom: 0;
-    background: rgb(0, 108, 229);
+    background: rgba(0, 0, 0, .1);
     padding: 3rem 0;
     justify-content: space-between;
     align-items: center;
@@ -335,10 +335,8 @@ body {
         transform: translateY(-55vh);
     }
     .authors img{
-        height: 10vh;
+        height: 8vh;
     }
-}
-@media (max-width: 845px){
 }
 
 @media (max-width: 768px){
@@ -442,6 +440,9 @@ body {
         transform: translateX(-10%);
         transform: translateY(-65vh);
     }
+    .authors img{
+        border-radius: 6px;
+    }
 }
 
 
@@ -473,5 +474,8 @@ body {
         font-size: 0.7rem;
         transform: translateX(-10%);
         transform: translateY(-65vh);
+    }
+    .authors img{
+        border-radius: 3px;
     }
 }

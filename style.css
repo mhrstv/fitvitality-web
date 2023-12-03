@@ -292,6 +292,16 @@ body {
 .about_us-text a{
     color: rgb(250, 252, 252);
 }
+
+.main_text{
+    text-align: center;
+    color: rgb(250, 252, 252);
+    user-select: none;
+    font-size: 1.1rem;
+    transform: translateY(15vh);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
 @media (prefers-reduced-motion: no-preference) {
     :root {
       scroll-behavior: smooth;
@@ -302,6 +312,9 @@ body {
     .about_us-text{
         margin-left: -2vw;
     }
+    .authors img{
+        transform :translateX(-5%)
+    }
 }
 
 @media (max-width: 1520px){
@@ -310,13 +323,12 @@ body {
     }
     .about_us-text{
         font-size: 0.9rem;
-        font-size: 1.1rem;
-        transform: translateX(-10%);
         transform: translateY(-55vh);
         margin-left: 0;
     }
     .authors img{
         height: 15vh;
+        transform :translateX(5%)
     }
 }
 
@@ -330,12 +342,12 @@ body {
     }
     .about_us-text{
         font-size: 0.85rem;
-        font-size: 1.1rem;
-        transform: translateX(-10%);
-        transform: translateY(-55vh);
+        transform: translateX(0%);
+        transform: translateY(-65vh);
     }
     .authors img{
         height: 8vh;
+        transform: translateX(5%);
     }
 }
 
@@ -477,5 +489,17 @@ body {
     }
     .authors img{
         border-radius: 3px;
+    }
+}
+
+@media (max-height: 660px){
+    .p_license{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-height: 530px){
+    .p_license{
+        font-size: 0.5rem;
     }
 }

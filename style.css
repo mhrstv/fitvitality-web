@@ -302,6 +302,49 @@ body {
     font-weight: 600;
     font-size: 1.4rem;
 }
+
+.downloads_images{
+    display: flex;
+    user-select: none;
+}
+.downloads_container{
+    text-align: center;
+    margin: 0 45vw;
+    user-select: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20vw;
+    margin: 0 auto;
+}
+.downloads{
+    text-align: center;
+}
+
+.downloads img {
+    max-width: 100%;
+    height: 15vh;
+    display: flex;
+    margin-top: 25vh;
+}
+
+.download{
+    margin-top: 2vh;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-item {
+    text-align: center; /* Centers the content within each item */
+}
+
 @media (prefers-reduced-motion: no-preference) {
     :root {
       scroll-behavior: smooth;
@@ -315,11 +358,20 @@ body {
     .authors img{
         transform :translateX(-5%)
     }
+    .downloads img{
+        transform :translateX(-5%)
+    }
+    .main_text{
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 1520px){
     .p_license{
         font-size: 1.35rem;
+    }
+    .main_text{
+        font-size: 1.2rem;
     }
     .about_us-text{
         font-size: 0.9rem;
@@ -327,6 +379,10 @@ body {
         margin-left: 0;
     }
     .authors img{
+        height: 15vh;
+        transform :translateX(5%)
+    }
+    .downloads img{
         height: 15vh;
         transform :translateX(5%)
     }
@@ -348,6 +404,18 @@ body {
     .authors img{
         height: 8vh;
         transform: translateX(5%);
+    }
+    .downloads img{
+        display: none;
+    }
+    .main_text{
+        font-size: 1rem;
+    }
+    .download_item{
+        display: none;
+    }
+    .download{
+        display: none;
     }
 }
 
@@ -421,14 +489,15 @@ body {
         
     }
     .authors img{
-        max-width: 100%;
-        height: 100%;
-        width: 100%;
+
         display: inline-block;
         margin-top: 25vh;
     }
     .image{
         display: block;
+    }
+    .main_text{
+        font-size: 0.85rem;
     }
 }
 
@@ -455,13 +524,17 @@ body {
     .authors img{
         border-radius: 6px;
     }
+    .main_text{
+        font-size: 0.85rem;
+        transform: translateY(17vh);
+    }
 }
 
 
 @media (max-width: 386px){
     .p_license{
         transform: translateY(30%);
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .foooter{
         padding: 1rem 0;
@@ -489,6 +562,9 @@ body {
     }
     .authors img{
         border-radius: 3px;
+    }
+    .main_text{
+        font-size: 0.8rem;
     }
 }
 

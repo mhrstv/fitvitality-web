@@ -386,6 +386,9 @@ body {
         height: 15vh;
         transform :translateX(5%)
     }
+    .download{
+        padding: 10px 20px;
+    }
 }
 
 @media (max-width: 992px){

@@ -339,6 +339,13 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute;
+    transform: translateX(-3.7vw);
+}
+.download:hover{
+    border: solid 1px;
+    border-color: #fff;
+    border-radius: 5px;
 }
 
 .download-item {

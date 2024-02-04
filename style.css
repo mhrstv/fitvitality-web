@@ -303,6 +303,32 @@ body {
     font-size: 1.4rem;
 }
 
+.version{
+    text-align: center;
+    color: rgb(250, 252, 252);
+    user-select: none;
+    transform: translateY(62vh);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.prerequisites{
+    text-align: center;
+    color: rgb(250, 252, 252);
+    user-select: none;
+    transform: translateY(60vh);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.prerequisites a{
+    text-align: center;
+    color: rgb(250, 250, 250);
+    user-select: none;
+    transform: translateY(60vh);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
 .downloads_images{
     display: flex;
     user-select: none;
@@ -349,7 +375,7 @@ body {
 }
 
 .download-item {
-    text-align: center; /* Centers the content within each item */
+    text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -401,6 +427,9 @@ body {
     .download{
         padding: 10px 18px;
     }
+    .version{
+        transform: translateY(56vh);
+    }
 }
 
 @media (max-width: 992px){
@@ -431,6 +460,9 @@ body {
     }
     .download{
         display: none;
+    }
+    .version{
+        transform: translateY(56vh);
     }
 }
 
@@ -514,6 +546,9 @@ body {
     .main_text{
         font-size: 0.85rem;
     }
+    .version{
+        transform: translateY(53vh);
+    }
 }
 
 @media (max-width: 480px){
@@ -542,6 +577,9 @@ body {
     .main_text{
         font-size: 0.85rem;
         transform: translateY(17vh);
+    }
+    .version{
+        transform: translateY(48vh);
     }
 }
 
@@ -580,6 +618,9 @@ body {
     }
     .main_text{
         font-size: 0.8rem;
+    }
+    .version{
+        transform: translateY(52vh);
     }
 }
 

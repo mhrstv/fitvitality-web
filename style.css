@@ -274,6 +274,7 @@ body {
     margin-top: 25vh;
     transition: all 0.3s ease;
     border-radius: 12px;
+    transform:  translateX(1vw);
 }
 .authors img:hover{
     border: 1px solid #000;

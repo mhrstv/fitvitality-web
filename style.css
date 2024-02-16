@@ -369,6 +369,11 @@ body {
     position: absolute;
     transform: translateX(-3.7vw);
 }
+
+.download a{
+    font-size: 16px;
+    color: #fff;
+}
 .download:hover{
     border: solid 1px;
     border-color: #fff;

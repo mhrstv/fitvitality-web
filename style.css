@@ -308,7 +308,7 @@ body {
     text-align: center;
     color: rgb(250, 252, 252);
     user-select: none;
-    transform: translateY(62vh);
+    transform: translateY(58vh);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -317,7 +317,7 @@ body {
     text-align: center;
     color: rgb(250, 252, 252);
     user-select: none;
-    transform: translateY(60vh);
+    transform: translateY(57vh);
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -354,7 +354,7 @@ body {
     max-width: 100%;
     height: 15vh;
     display: flex;
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .download{
@@ -367,7 +367,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
-    transform: translateX(-3.7vw);
+    transform: translateX(-3.5vw);
 }
 
 .download a{
@@ -430,11 +430,19 @@ body {
     }
 }
 @media (max-width: 1366px){
+    .downloads img{
+        transform: translateY(-3vh);
+    }
     .download{
         padding: 10px 18px;
+        transform: translateY(-3vh) translateX(-3.5vw);
     }
     .version{
-        transform: translateY(56vh);
+        transform: translateY(52vh);
+    }
+    .prerequisites
+    {
+        transform: translateY(51vh);
     }
 }
 
@@ -553,7 +561,11 @@ body {
         font-size: 0.85rem;
     }
     .version{
-        transform: translateY(53vh);
+        transform: translateY(48vh);
+    }
+    .prerequisites{
+        transform: translateY(47vh);
+        font-size: 16px;
     }
 }
 
@@ -585,7 +597,10 @@ body {
         transform: translateY(17vh);
     }
     .version{
-        transform: translateY(48vh);
+        transform: translateY(45vh);
+    }
+    .prerequisites{
+        transform: translateY(44vh);
     }
 }
 
@@ -626,7 +641,7 @@ body {
         font-size: 0.8rem;
     }
     .version{
-        transform: translateY(52vh);
+        transform: translateY(45vh);
     }
 }
 
